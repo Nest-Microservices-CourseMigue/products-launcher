@@ -11,6 +11,12 @@ git submodule update --init --recursive
 docker compose up --build
 ```
 
+## Prod
+1. Use command to build the docker images
+    ```
+    docker compose -f docker-compose.prod.yml build
+    ```
+
 
 ### Pasos para crear los Git Submodules
 
